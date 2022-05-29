@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title>Hangman by Aniruddh</title>
+</head>
+<body>
+    <h1>Welcome to HANGMAN</h1>
+    <h3>Press spacebar to start.</h3>
+
+<button class="btn btn-primary" id='rules'>Rules</button>
+
+<div id='modal'>
+    <h1>Welcome to Hangman</h1>
+    <p>In this game you have a random word selected for you from a library of words I created.<br>You get a total of 6 wrong guesses before you completed the death of stick man. If you select the same letter twice you lose a guess. Do you think you know enough words to not doom Mr. Stick to the gallows?<br>Well lets find out!!</p><p>Press close and press spacebar to guess the word.</p>
+    <a id="close" href="#">Close</a>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      	<img id='base' src='./images/gallowbase.png' alt='base'>
+		<img id='gallow1' src='./images/gallow1.png' alt='pic1'>
+		<img id='gallow2' src='./images/gallow2.png' alt='pic2'>
+		<img id='gallow3' src='./images/gallow3.png' alt='pic3'>
+		<img id='gallow4' src='./images/gallow4.png' alt='pic4'>
+		<img id='gallow5' src='./images/gallow5.png' alt='pic5'>
+    </div>
+    <div class="col-sm-6">
+      	<p id='first'>Guess the Word </p>
+		<div class='underscore'></div>
+		<p>Correct Guesses</p>
+		<div class='rightguess'></div>
+		<p>Wrong Guesses</p>
+		<div class='wrongguess'></div>
+    </div>
+
+  </div>
+</div>
+
+
+    <script src='script.js'></script>
+
+    <footer>
+         <div class="footer">
+        <p>Copyright &copy; 2022 All Rights Reserved | Game made by <a href="https://linktr.ee/Anirudddh" >Aniruddha Rajendra Shinde</a>  </p>
+        
+    </div>
+  </footer>
+</body>
+</html>

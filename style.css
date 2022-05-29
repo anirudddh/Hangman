@@ -1,0 +1,104 @@
+body{
+    text-align: center;
+}
+
+/* Use classes for CSS so you can reuse them! */
+#modal {
+    background-color: rgb(244, 247, 56);
+    position: absolute;
+    display: block;
+    /* top: 180px; */
+    left: 25%;
+    height: 50%;
+    width: 50%;
+    z-index: 1;
+    font-size: 20px;
+    overflow: auto;
+    padding: 10px 30px;
+}
+ 
+button{
+    margin: 0px 2px;
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    }
+
+.underscore {
+    font-size: 50px;
+    text-align: center;
+    margin: 200px auto 40px auto;
+    height: 100px;
+    width: 50%;
+    border: 2px black solid;
+    display: block;
+    background-color: green;
+}
+
+.wrongguess {
+    height: 100px;
+    display:inline-block;
+    width: 50%;
+    border: 2px black solid;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 25px;
+    background-color: red;
+}
+.rightguess {
+    display: inline-block;
+    height: 100px;
+    width: 50%;
+    border: 2px black solid;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 25px;
+    background-color: green;
+}
+h4{
+    display: inline-block;
+    position: sticky;
+    top: 100px;
+    right: 100px;
+}
+img{
+    width: 640px;
+    height: 480px;
+    position: absolute;
+    top: 10%;
+    left: 37%;
+    z-index: -1;
+}
+
+img#gallow1 {
+    display: none;
+}
+img#gallow2{
+    display: none;
+}
+img#gallow3{
+    display: none;
+}
+img#gallow4{
+    display: none;
+}
+img#gallow5{
+    display: none;
+}
+img#gallow6{
+    display: none;
+}
+
+span {
+    position: absolute;
+    display: inline-block;
+    top: 100px;
+    right: 200px;
+    height: 200px;
+}
+p#first {
+    position: absolute;
+    top: 150px;
+    left: 42%;
+
+}
